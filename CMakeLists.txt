@@ -16,7 +16,7 @@ ADD_DEFINITIONS(-DUCI_PREFIX="${CMAKE_INSTALL_PREFIX}")
 
 OPTION(UCI_DEBUG "debugging support" OFF)
 OPTION(UCI_DEBUG_TYPECAST "typecast debugging support" OFF)
-OPTION(BUILD_LUA "build Lua binding" ON)
+OPTION(BUILD_LUA "build Lua binding" OFF)
 OPTION(BUILD_STATIC "statically linking uci" OFF)
 
 FIND_PATH(ubox_include_dir libubox/usock.h)
